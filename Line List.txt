@@ -1,0 +1,16 @@
+Para usar el archivo de line list:
+1)Poner el excel del listado automatico que sale del cad en la misma carpeta que el script. chequear que esté en formato xlsx. (.xsl no sirve porque la librería de python que estoy usando solo funciona con formatos nuevos). Nombrar el archivo Line_list_base
+
+2)Asegurarse que en la misma carpeta, esté el template que se vaya a usar (Hitachi, Paoletti, etc.. ).
+
+3)Abrir el line_list_auto.py en el editor de texto (Visual Studio Code).
+Cargar los datos de la entrada, nombre, codigo, etc para el proyecto en cuestión.
+
+4)correr el programa y seguir las instrucciones.
+
+4.1 ) La primera vuelta, se genera un archivo llamado line_list_paso_1. abrirlo y completarlo con el input manual, principalmente la presión de diseño, el resto puede ser llenado en otro momento.
+Usar TBD para las presiones que no se sepan pero no dejar la celda vacia.
+
+4.2) Guardar este nuevo archivo como line_list_auto_2. 
+
+4.3) Volver a darle run al codigo, y en este caso se va a generar un line list con el codigo del proyecto y etc.
